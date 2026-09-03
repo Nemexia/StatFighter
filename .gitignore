@@ -1,0 +1,9 @@
+# Build
+build/
+
+# IDE
+.vs/
+.vscode/
+
+# Package Manager
+vcpkg_installed/
