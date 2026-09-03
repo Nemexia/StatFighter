@@ -27,7 +27,13 @@ constexpr int level_points(int level) {
     return 10 + 2 * level;
 }
 
-struct Progression {
+class Progression {
+public:
+    int player_total_points() const { return level_points(level); }
+
+    int enemy_total_points() const { return static_cast<int>(level_points(level) * wave_multiplier(wave)); }
+
+private:
     int level;
     Wave wave;
 };

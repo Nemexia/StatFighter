@@ -1,4 +1,5 @@
 #pragma once
+#include "progression.h"
 
 namespace game {
 class Game {
