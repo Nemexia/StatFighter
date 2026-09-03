@@ -14,7 +14,7 @@ public:
 private:
     std::array<double, count<CoreStat>()> core_stats;
     std::array<double, count<DerivedStat>()> derived_stats;
-    volatile bool is_dirty = true;
+    mutable bool is_dirty = true;
     void recalculate_derived_stats() const;
 };
 } // namespace game

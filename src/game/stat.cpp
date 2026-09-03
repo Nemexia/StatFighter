@@ -22,8 +22,8 @@ double Stats::get(DerivedStat derived_stat) const {
         recalculate_derived_stats();
         is_dirty = false;
     }
-    return derived_stat[to_index(derived_stat)];
+    return derived_stats[to_index(derived_stat)];
 }
 
-void Stats::recalculate_derived_stats() {}
+void Stats::recalculate_derived_stats() const {}
 } // namespace game
