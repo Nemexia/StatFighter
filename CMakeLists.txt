@@ -14,6 +14,7 @@ add_executable(StatFighter
 "src/game/game.h"
 "src/game/game.cpp"
 "src/game/stat.h"
+"src/game/stat.cpp"
 "src/game/progression.h" "src/game/arena.h" "src/game/character.h")
 
 find_package(raylib CONFIG REQUIRED)
