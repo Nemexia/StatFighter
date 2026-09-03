@@ -13,7 +13,8 @@ add_executable(StatFighter
 "src/app/application.cpp"
 "src/game/game.h"
 "src/game/game.cpp"
-)
+"src/game/stat.h"
+"src/game/progression.h")
 
 find_package(raylib CONFIG REQUIRED)
 find_package(EnTT CONFIG REQUIRED)

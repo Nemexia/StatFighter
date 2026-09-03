@@ -1,6 +1,6 @@
 #include "app/application.h"
 
 int main() {
-  game::Application app;
-  app.run();
+    game::Application app;
+    app.run();
 }

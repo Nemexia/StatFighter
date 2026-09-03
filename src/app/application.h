@@ -1,13 +1,15 @@
 #pragma once
+#include "../game/game.h"
 
 namespace game {
 class Application {
- public:
-  Application();
-  void run();
+public:
+    Application();
+    void run();
 
- private:
-  void update(float dt);
-  void render();
+private:
+    void update(float dt);
+    void render();
+    Game game_;
 };
-}  // namespace game
+} // namespace game
