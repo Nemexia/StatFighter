@@ -3,11 +3,6 @@
 namespace game {
 
 template <typename T>
-constexpr std::size_t count() {
-    return static_cast<std::size_t>(T::Count);
-}
-
-template <typename T>
 constexpr std::size_t to_index(T t) {
     return static_cast<std::size_t>(t);
 }

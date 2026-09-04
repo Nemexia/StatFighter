@@ -1,8 +1,8 @@
 #pragma once
+#include "stat.h"
 
 namespace game {
-class Character {
-public:
-private:
-};
+struct Character {
+    Stats stats;
+}
 } // namespace game
